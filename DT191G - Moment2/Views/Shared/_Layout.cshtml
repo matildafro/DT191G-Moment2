@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Moment 2</title>
+    
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+   
+</head>
+<body>
+    <header>
+        @Html.Partial("_Header")
+
+        <nav>
+            <div>
+                
+                <div>
+                    <ul id="menu">
+                        <li>
+                            <a asp-area="" asp-controller="Home" asp-action="Index">Startsida</a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-controller="Home" asp-action="About">Våra katter</a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-controller="Home" asp-action="Cats">Lägg till katt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div>
+            &copy; Matilda Fröberg - DT191G - Moment2
+        </div>
+    </footer>
+  
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

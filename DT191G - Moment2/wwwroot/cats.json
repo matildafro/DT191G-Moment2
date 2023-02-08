@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Herman",
+    "Breed": "Skogskatt",
+    "Age": "1",
+    "Available": "Nej",
+    "CatVaccinated": 0
+  },
+  {
+    "Name": "Stig",
+    "Breed": "Burma",
+    "Age": "4",
+    "Available": "Ja",
+    "CatVaccinated": 2
+  },
+  {
+    "Name": "Gustaf",
+    "Breed": "Abessinier",
+    "Age": "2",
+    "Available": "Ja",
+    "CatVaccinated": 0
+  },
+  {
+    "Name": "Hurre",
+    "Breed": "Abessinier",
+    "Age": "2",
+    "Available": "Ja",
+    "CatVaccinated": 1
+  }
+]

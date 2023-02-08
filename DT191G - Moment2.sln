@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DT191G - Moment2", "DT191G - Moment2\DT191G - Moment2.csproj", "{BA2D977D-8AEF-471A-8AE8-D86A4497FD91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA2D977D-8AEF-471A-8AE8-D86A4497FD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2D977D-8AEF-471A-8AE8-D86A4497FD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2D977D-8AEF-471A-8AE8-D86A4497FD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2D977D-8AEF-471A-8AE8-D86A4497FD91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A078341-16ED-4F3B-B074-9A98117C7239}
+	EndGlobalSection
+EndGlobal

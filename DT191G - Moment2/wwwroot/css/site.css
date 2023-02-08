@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+main {
+    background-color: white;
+    border: 3px solid orange;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu {
+    text-align: center;
+}
+
+ul#menu li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white; 
+    margin: 10px;
+    font-weight:700; 
+}
+
+ul#menu li a:hover {
+    color: orange;
+    }
+
+form span {
+    color: red;
+}
+
+header img {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered h1 {
+    font-size: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+.active {
+    color: orange;
+}
+
+.content {
+    width: 100%;
+}
+
+.imagecontet {
+    width: 100%;
+}
+
+article {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+article div {
+    border: 2px solid darkorange;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+}
+
+select {
+    margin: 5px;
+}
+
+input[type=submit] {
+    background-color: orange;
+    padding: 10px;
+    border: orange;
+    font-weight: bold;
+}

@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Startsida";
+}
+
+<h1>Startsida</h1>
+<p class="center">
+@ViewBag.welcome På Gröndals katthem har vi plats för @ViewData["katter"] katter. Gröndals katthem är en ideell förening som omhändertar och omplacerar hemlösa och nödlidande katter i Stockholmsområdet.  </p>
+
+<!--partial-->
+@Html.Partial("_Images")

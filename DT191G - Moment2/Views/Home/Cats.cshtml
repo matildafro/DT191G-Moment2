@@ -1,0 +1,42 @@
+﻿@using DT191G___Moment2.Models;
+@model DT191G___Moment2.Models.CatModel;
+@{
+    ViewData["Title"] = "Katter";
+}
+
+<h1>Katter</h1>
+<p class="center"><i>Denna sida visas endast för inloggad personal</i>.</p>
+
+<form method="post">
+	
+    <label asp-for="Name"></label>
+    <input asp-for="Name" />
+    <span asp-validation-for="Name"></span>
+    <br />
+    <label asp-for="Breed"></label>
+    <input asp-for="Breed" />
+    <span asp-validation-for="Breed"></span>
+    <br />
+    <label asp-for="Age"></label> 
+    <input asp-for="Age" /> år
+    <span asp-validation-for="Age"></span>
+    <br />
+
+    <!-- skapar radio-button för available-->
+    <label asp-for="Available"></label>
+     @Html.RadioButtonFor(m => m.Available,"Ja")Ja
+    @Html.RadioButtonFor(m => m.Available,"Nej")Nej 
+	<span asp-validation-for="Available"></span> 
+
+    <br />
+    <!-- selectlist som plockar upp Enum och hämtar dess värden -->
+    <label asp-for="CatVaccinated"></label>
+    @Html.DropDownListFor(m => m.CatVaccinated,
+    new SelectList(Enum.GetValues(typeof(Vaccinated))),
+    "Ja/nej/okänt")
+    <span asp-validation-for="Available"></span> 
+    <br />
+    <input type="submit" value="Lägg till katt" />
+
+</form>
+
